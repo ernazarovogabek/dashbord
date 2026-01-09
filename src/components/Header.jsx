@@ -5,6 +5,9 @@ import Logo from "../assets/img/Logo.png";
 import MS from "../assets/img/MS.png";
 import { FaBell, FaBars, FaTimes } from "react-icons/fa";
 
+
+
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -73,6 +76,11 @@ const Header = () => {
           )}
         </div>
       </div>
+
+
+
+
+
     </header>
   );
 };
